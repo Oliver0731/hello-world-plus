@@ -1,1 +1,12 @@
-/* CSS Style Sheet */
+body {
+  margin: 5% 30%;
+  padding-right: 10%;
+  padding-left: 10%;
+  border-style: outset;
+  border-color: red;
+
+  background-color: rgb(255, 177, 55);
+}
+html {
+  background-color: white;
+}

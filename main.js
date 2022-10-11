@@ -1,8 +1,14 @@
 // JavaScript Code
+
+//add event lister to the button
+document.getElementById("btm").addEventListener("click", sayGreeting )
+
+function sayGreeting(){
 //input
-// let username = prompt("What is your name")
-// let timeOfDay = prompt("what time of day is it")
+let username = document.getElementById("name-in").value;
+let timeOfDay = document.getElementById("time-in").value;
 //process
-let msg = `hello ${username}. have a great ${timeOfDay}!`
+let msg = `hello ${username}. have a great ${timeOfDay}!`;
 //output
-// alert(msg);
+document.getElementById("outPut").innerHTML = msg;
+}
